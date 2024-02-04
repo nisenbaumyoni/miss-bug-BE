@@ -1,11 +1,16 @@
 import express from "express";
-import { utilService } from "./services/util.service.js";
+
 import { bugService } from "./services/bug.service.js";
 import fs from "fs";
 import { log } from "console";
 
 const app = express();
 const port = 3030;
+
+const corsOptions = {
+    origin: ['http://127.0.0.1:5173', 'http://localhost:5173'],
+    credentials: true
+}
 
 app.use(express.static("public"));
 
