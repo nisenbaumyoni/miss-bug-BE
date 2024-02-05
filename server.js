@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 
 import { bugService } from "./services/bug.service.js";
 import fs from "fs";
@@ -8,10 +9,11 @@ const app = express();
 const port = 3030;
 
 const corsOptions = {
-    origin: ['http://127.0.0.1:5173', 'http://localhost:5173'],
-    credentials: true
-}
+  origin: ["http://127.0.0.1:5173", "http://localhost:5173"],
+  credentials: true,
+};
 
+app.use(cors(corsOptions));
 app.use(express.static("public"));
 
 app.get("/api/bug", async (req, res) => {
