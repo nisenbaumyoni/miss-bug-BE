@@ -6,7 +6,6 @@ import fs from "fs";
 import { log } from "console";
 
 const app = express();
-const port = 3030;
 
 const corsOptions = {
   origin: ["http://127.0.0.1:5173", "http://localhost:5173"],
@@ -15,6 +14,25 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 app.use(express.static("public"));
+
+app.get("/api/bug/export", async (req, res) => {
+  try {
+    const pdfDoc = await bugService.generatePDF();
+    // res.send(pdfDoc);
+
+    // Set the appropriate headers to indicate it's a PDF file
+    res.setHeader("Content-Type", "application/pdf");
+    res.setHeader("Content-Disposition", "attachment; filename=bug.pdf");
+
+    // Pipe the PDF document to the response
+    pdfDoc.pipe(res);
+
+    // res.send("ok");
+    // console.log("ok");
+  } catch (err) {
+    res.status(400).send(`Couldn't get bugs `, err);
+  }
+});
 
 app.get("/api/bug", async (req, res) => {
   try {
@@ -70,6 +88,7 @@ app.get("/api/bug/:bugId/remove", async (req, res) => {
   }
 });
 
+const port = 3030;
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
 });

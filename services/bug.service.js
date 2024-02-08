@@ -1,5 +1,5 @@
 import fs from "fs";
-
+import PDFDocument from "pdfkit";
 import { loggerService } from "./logger.service.js";
 
 export const bugService = {
@@ -7,6 +7,7 @@ export const bugService = {
   getById,
   remove,
   save,
+  generatePDF,
 };
 
 var bugs = _readJsonFile("./data/bug.json");
@@ -18,6 +19,39 @@ async function query() {
     loggerService.error(`Had problems getting bugs...`);
     throw err;
   }
+}
+
+async function generatePDF() {
+  // Create a PDF document and pipe it to a file
+
+  const bugsForPdf = await bugService.query();
+
+  console.log(bugsForPdf);
+
+  const pdfDoc = new PDFDocument();
+  pdfDoc.pipe(fs.createWriteStream("./data/bug.pdf"));
+
+  // Create an object where the index is the key and bug data is the value
+  const bugsObject = {};
+  bugsForPdf.forEach((bug, index) => {
+    bugsObject[index] = {
+      id: bug._id,
+      title: bug.title,
+      severity: bug.severity,
+      createdAt: new Date(bug.createdAt).getFullYear(),
+    };
+  });
+
+  // Add JSON representation of bugsObject to PDF
+  pdfDoc.text(JSON.stringify(bugsObject, null, 2));
+  //Finalize the pdf
+  pdfDoc.end();
+
+  // Close the write stream after finishing
+  // writeStream.on("finish", () => {
+  //   console.log("PDF created successfully.");
+  // });
+  return pdfDoc;
 }
 
 async function getById(bugId) {
