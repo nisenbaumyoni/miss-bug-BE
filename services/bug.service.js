@@ -47,10 +47,6 @@ async function generatePDF() {
   //Finalize the pdf
   pdfDoc.end();
 
-  // Close the write stream after finishing
-  // writeStream.on("finish", () => {
-  //   console.log("PDF created successfully.");
-  // });
   return pdfDoc;
 }
 

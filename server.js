@@ -2,8 +2,6 @@ import express from "express";
 import cors from "cors";
 
 import { bugService } from "./services/bug.service.js";
-import fs from "fs";
-import { log } from "console";
 
 const app = express();
 
@@ -14,7 +12,10 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 app.use(express.static("public"));
+app.use(express.json())
 
+
+//export
 app.get("/api/bug/export", async (req, res) => {
   try {
     const pdfDoc = await bugService.generatePDF();
@@ -27,12 +28,12 @@ app.get("/api/bug/export", async (req, res) => {
     // Pipe the PDF document to the response
     pdfDoc.pipe(res);
 
-    // res.send("ok");
-    // console.log("ok");
   } catch (err) {
     res.status(400).send(`Couldn't get bugs `, err);
   }
 });
+
+//CRUDL
 
 app.get("/api/bug", async (req, res) => {
   try {
@@ -40,24 +41,6 @@ app.get("/api/bug", async (req, res) => {
     res.send(bugs);
   } catch (err) {
     res.status(400).send(`Couldn't get bugs`);
-  }
-});
-
-app.get("/api/bug/save", async (req, res) => {
-  const { _id, title, severity, createdAt } = req.query;
-  const bugToSave = {
-    _id: _id,
-    title: title,
-    severity: +severity,
-    createdAt: +createdAt,
-  };
-  console.log(bugToSave);
-
-  try {
-    const result = await bugService.save(bugToSave);
-    res.send(result);
-  } catch (err) {
-    console.log(err);
   }
 });
 
@@ -77,12 +60,48 @@ app.get("/api/bug/:bugId", async (req, res) => {
   }
 });
 
-app.get("/api/bug/:bugId/remove", async (req, res) => {
+app.post("/api/bug", async (req, res) => {
+  const { _id, title, severity, createdAt } = req.body;
+  const bugToSave = {
+    _id: _id,
+    title: title,
+    severity: +severity,
+    createdAt: +createdAt,
+  };
+  console.log(bugToSave);
+
+  try {
+    const result = await bugService.save(bugToSave);
+    res.send(result);
+  } catch (err) {
+    console.log(err);
+  }
+});
+
+app.put("/api/bug", async (req, res) => {
+  const { _id, title, severity, createdAt } = req.body;
+  const bugToSave = {
+    _id: _id,
+    title: title,
+    severity: +severity,
+    createdAt: +createdAt,
+  };
+  console.log(bugToSave);
+
+  try {
+    const result = await bugService.save(bugToSave);
+    res.send(result);
+  } catch (err) {
+    console.log(err);
+  }
+});
+
+app.delete("/api/bug/:bugId", async (req, res) => {
   var { bugId } = req.params;
 
   try {
     const result = bugService.remove(bugId);
-    res.send(`<p>Bug ${bugId} was removed </p>`);
+    res.send(`Bug ${bugId} was removed`);
   } catch (err) {
     console.log(err);
   }
