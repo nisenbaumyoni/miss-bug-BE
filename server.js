@@ -37,7 +37,13 @@ app.get("/api/bug/export", async (req, res) => {
 
 app.get("/api/bug", async (req, res) => {
   try {
-    const bugs = await bugService.query();
+    console.log("req.query",req.query);
+    const filterBy = {
+      title : req.query.title || "",
+      severity : req.query.severity,
+      dateSort : req.query.dateSort,
+    }
+    const bugs = await bugService.query(filterBy);
     res.send(bugs);
   } catch (err) {
     res.status(400).send(`Couldn't get bugs`);

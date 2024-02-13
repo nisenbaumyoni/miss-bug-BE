@@ -12,9 +12,27 @@ export const bugService = {
 
 var bugs = _readJsonFile("./data/bug.json");
 
-async function query() {
+async function query(filterBy) {
   try {
-    return bugs;
+    console.log("filterBy",filterBy);
+    let bugsToReturn = [...bugs]
+
+    if (filterBy) {
+      var { title, severity, dateSort } = filterBy;
+      title = title || "";
+      severity = +severity;
+
+      bugsToReturn = bugsToReturn.filter(
+        (bug) =>
+          bug.title.toLowerCase().includes(title.toLowerCase()) &&
+          (severity === 0 || severity === bug.severity)
+      );
+
+    dateSort === "asc"
+      ? bugsToReturn.sort((a, b) => a.createdAt - b.createdAt)
+      : bugsToReturn.sort((a, b) => b.createdAt - a.createdAt);
+    }
+    return bugsToReturn;
   } catch (err) {
     loggerService.error(`Had problems getting bugs...`);
     throw err;
