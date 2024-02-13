@@ -42,6 +42,7 @@ app.get("/api/bug", async (req, res) => {
       title : req.query.title || "",
       severity : req.query.severity,
       dateSort : req.query.dateSort,
+      pageIndex : req.query.pageIndex,
     }
     const bugs = await bugService.query(filterBy);
     res.send(bugs);

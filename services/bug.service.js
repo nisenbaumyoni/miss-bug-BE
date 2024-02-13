@@ -44,8 +44,6 @@ async function generatePDF() {
 
   const bugsForPdf = await bugService.query();
 
-  console.log(bugsForPdf);
-
   const pdfDoc = new PDFDocument();
   pdfDoc.pipe(fs.createWriteStream("./data/bug.pdf"));
 
