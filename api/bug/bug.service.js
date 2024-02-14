@@ -1,6 +1,6 @@
 import fs from "fs";
 import PDFDocument from "pdfkit";
-import { loggerService } from "./logger.service.js";
+import { loggerService } from "../../services/logger.service.js";
 
 export const bugService = {
   query,
