@@ -10,17 +10,19 @@ export const bugService = {
   generatePDF,
 };
 
+const PAGE_SIZE = 10;
 var bugs = _readJsonFile("./data/bug.json");
 
 async function query(filterBy) {
   try {
-    console.log("filterBy",filterBy);
-    let bugsToReturn = [...bugs]
+    console.log("filterBy", filterBy);
+    let bugsToReturn = [...bugs];
 
     if (filterBy) {
-      var { title, severity, dateSort } = filterBy;
+      var { title, severity, dateSort, pageIndex } = filterBy;
       title = title || "";
       severity = +severity;
+      pageIndex = pageIndex || 1;
 
       bugsToReturn = bugsToReturn.filter(
         (bug) =>
@@ -28,9 +30,12 @@ async function query(filterBy) {
           (severity === 0 || severity === bug.severity)
       );
 
-    dateSort === "asc"
-      ? bugsToReturn.sort((a, b) => a.createdAt - b.createdAt)
-      : bugsToReturn.sort((a, b) => b.createdAt - a.createdAt);
+      dateSort === "asc"
+        ? bugsToReturn.sort((a, b) => a.createdAt - b.createdAt)
+        : bugsToReturn.sort((a, b) => b.createdAt - a.createdAt);
+
+      const startIndex = (pageIndex - 1) * PAGE_SIZE;
+      bugsToReturn = bugsToReturn.slice(startIndex, startIndex + PAGE_SIZE);
     }
     return bugsToReturn;
   } catch (err) {
