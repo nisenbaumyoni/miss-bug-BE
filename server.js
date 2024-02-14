@@ -3,6 +3,7 @@ import cors from "cors";
 
 import { bugService } from "./services/bug.service.js";
 import cookieParser from "cookie-parser";
+import { bugRoutes } from "./api/bug/bug.routes.js";
 
 const app = express();
 
@@ -35,20 +36,22 @@ app.get("/api/bug/export", async (req, res) => {
 
 //CRUDL
 
-app.get("/api/bug", async (req, res) => {
-  try {
-    const filterBy = {
-      title: req.query.title || "",
-      severity: req.query.severity,
-      dateSort: req.query.dateSort,
-      pageIndex: req.query.pageIndex,
-    };
-    const bugs = await bugService.query(filterBy);
-    res.send(bugs);
-  } catch (err) {
-    res.status(400).send(`Couldn't get bugs`);
-  }
-});
+app.use("/api/bug", bugRoutes);
+
+// app.get("/api/bug", async (req, res) => {
+//   try {
+//     const filterBy = {
+//       title: req.query.title || "",
+//       severity: req.query.severity,
+//       dateSort: req.query.dateSort,
+//       pageIndex: req.query.pageIndex,
+//     };
+//     const bugs = await bugService.query(filterBy);
+//     res.send(bugs);
+//   } catch (err) {
+//     res.status(400).send(`Couldn't get bugs`);
+//   }
+// });
 
 app.get("/api/bug/:bugId", async (req, res) => {
   var { bugId } = req.params;
