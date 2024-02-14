@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 
 import { bugService } from "./services/bug.service.js";
+import cookieParser from "cookie-parser";
 
 const app = express();
 
@@ -12,8 +13,8 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 app.use(express.static("public"));
-app.use(express.json())
-
+app.use(express.json());
+app.use(cookieParser());
 
 //export
 app.get("/api/bug/export", async (req, res) => {
@@ -27,7 +28,6 @@ app.get("/api/bug/export", async (req, res) => {
 
     // Pipe the PDF document to the response
     pdfDoc.pipe(res);
-
   } catch (err) {
     res.status(400).send(`Couldn't get bugs `, err);
   }
@@ -37,13 +37,12 @@ app.get("/api/bug/export", async (req, res) => {
 
 app.get("/api/bug", async (req, res) => {
   try {
-    console.log("req.query",req.query);
     const filterBy = {
-      title : req.query.title || "",
-      severity : req.query.severity,
-      dateSort : req.query.dateSort,
-      pageIndex : req.query.pageIndex,
-    }
+      title: req.query.title || "",
+      severity: req.query.severity,
+      dateSort: req.query.dateSort,
+      pageIndex: req.query.pageIndex,
+    };
     const bugs = await bugService.query(filterBy);
     res.send(bugs);
   } catch (err) {
@@ -57,13 +56,30 @@ app.get("/api/bug/:bugId", async (req, res) => {
     const bug = await bugService.getById(bugId);
 
     if (bug) {
+      var { visitedBugs = "" } = req.cookies;
+      visitedBugs = bugId + "," + visitedBugs;
+      const visitedBugsArray = visitedBugs.split(",");
+      if (
+        visitedBugsArray.length > 0 &&
+        visitedBugsArray[visitedBugsArray.length - 1] === ""
+      ) {
+        visitedBugsArray.pop();
+      }
+
+      if (visitedBugsArray.length > 3) throw "Wait for a bit";
+      res.cookie("visitedBugs", visitedBugs, { maxAge: 5 * 1000 });
       res.send(bug);
     } else {
       res.status(404).send({ error: "Bug not found" });
     }
   } catch (err) {
-    console.error(err);
-    res.status(500).send({ error: "Internal server error" });
+    if (err === "Wait for a bit") {
+      console.error(err);
+      res.status(401).send(err);
+    } else {
+      console.error(err);
+      res.status(500).send({ error: "Internal server error" });
+    }
   }
 });
 
@@ -75,7 +91,6 @@ app.post("/api/bug", async (req, res) => {
     severity: +severity,
     createdAt: +createdAt,
   };
-  console.log(bugToSave);
 
   try {
     const result = await bugService.save(bugToSave);
@@ -93,7 +108,6 @@ app.put("/api/bug", async (req, res) => {
     severity: +severity,
     createdAt: +createdAt,
   };
-  console.log(bugToSave);
 
   try {
     const result = await bugService.save(bugToSave);

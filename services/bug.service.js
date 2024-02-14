@@ -15,7 +15,6 @@ var bugs = _readJsonFile("./data/bug.json");
 
 async function query(filterBy) {
   try {
-    console.log("filterBy", filterBy);
     let bugsToReturn = [...bugs];
 
     if (filterBy) {
