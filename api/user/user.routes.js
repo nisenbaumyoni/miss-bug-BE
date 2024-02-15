@@ -1,11 +1,12 @@
 import express from "express";
-import { getUsers } from "./user.controller.js";
+import { userController } from "./user.controller.js";
 
 const router = express.Router();
 
-// router.get("/api/user", userController.getUsers);
-// router.get("/api/bug/:bugId", bugController.getBugById);
-
-router.get("/", getUsers);
+router.get("/", userController.getUsers);//V
+router.get("/:userId", userController.getUserById);//V
+router.delete("/:userId", userController.deleteUser);//V
+router.post("/", userController.addUser); //X
+router.put("/", userController.updateUser); //X
 
 export const userRoutes = router;
