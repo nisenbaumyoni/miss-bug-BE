@@ -1,6 +1,8 @@
 import fs from "fs";
 import PDFDocument from "pdfkit";
 import { loggerService } from "../../services/logger.service.js";
+import { userService } from "../user/user.service.js";
+import { authService } from "../auth/auth.service.js";
 
 export const bugService = {
   query,
@@ -57,6 +59,7 @@ async function generatePDF() {
     bugsObject[index] = {
       id: bug._id,
       title: bug.title,
+      description: bug.description,
       severity: bug.severity,
       createdAt: new Date(bug.createdAt).getFullYear(),
     };

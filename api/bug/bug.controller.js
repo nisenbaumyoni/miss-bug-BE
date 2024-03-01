@@ -1,4 +1,6 @@
+import { loggerService } from "../../services/logger.service.js";
 import { bugService } from "./bug.service.js";
+import { authService } from "../auth/auth.service.js";
 
 async function getBugs(req, res) {
   try {
@@ -48,7 +50,6 @@ async function getBugById(req, res) {
   }
 }
 
-
 async function exportPdf(req, res) {
   try {
     const pdfDoc = await bugService.generatePDF();
@@ -65,11 +66,31 @@ async function exportPdf(req, res) {
   }
 }
 
-async function saveBug (req, res) {
-  const { _id, title, severity, createdAt } = req.body;
+async function saveBug(req, res) {
+  const { _id, title, description, severity, createdAt, createdBy } = req.body;
   const bugToSave = {
     _id: _id,
     title: title,
+    description: description,
+    severity: +severity,
+    createdAt: +createdAt,
+    createdBy: createdBy ? createdBy : { _id: 1, fullname: "anonymous user" },
+  };
+
+  try {
+    const result = await bugService.save(bugToSave);
+    res.send(result);
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+async function updateBug(req, res) {
+  const { _id, title, description, severity, createdAt } = req.body;
+  const bugToSave = {
+    _id: _id,
+    title: title,
+    description: description,
     severity: +severity,
     createdAt: +createdAt,
   };
@@ -80,26 +101,9 @@ async function saveBug (req, res) {
   } catch (err) {
     console.log(err);
   }
-};
+}
 
-async function updateBug (req, res) {
-  const { _id, title, severity, createdAt } = req.body;
-  const bugToSave = {
-    _id: _id,
-    title: title,
-    severity: +severity,
-    createdAt: +createdAt,
-  };
-
-  try {
-    const result = await bugService.save(bugToSave);
-    res.send(result);
-  } catch (err) {
-    console.log(err);
-  }
-};
-
-async function deleteBug (req, res) {
+async function deleteBug(req, res) {
   var { bugId } = req.params;
 
   try {
@@ -108,7 +112,7 @@ async function deleteBug (req, res) {
   } catch (err) {
     console.log(err);
   }
-};
+}
 
 export const bugController = {
   getBugs,
@@ -116,5 +120,5 @@ export const bugController = {
   exportPdf,
   saveBug,
   updateBug,
-  deleteBug
+  deleteBug,
 };

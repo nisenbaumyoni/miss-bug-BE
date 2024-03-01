@@ -4,61 +4,131 @@
     "title": "title",
     "description": "description",
     "severity": 1,
-    "createdAt": 1542107359454
+    "createdAt": 1542107359454,
+    "createdBy": {
+      "_id": "5UFq1h",
+      "fullname": "Lina Dacca Watad"
+    }
   },
   {
     "_id": "wWWV7r",
     "title": "wefw",
     "description": "description",
     "severity": 2,
-    "createdAt": 1707088592159
+    "createdAt": 1707088592159,
+    "createdBy": {
+      "_id": "5UFq1h",
+      "fullname": "Lina Dacca Watad"
+    }
   },
   {
     "_id": "UTKAVp",
     "title": "now",
-    "severity": 3,
-    "createdAt": 1707088568381
+    "description": "description",
+    "severity": 2,
+    "createdAt": 1707088568381,
+    "createdBy": {
+      "_id": "5UFq1h",
+      "fullname": "Lina Dacca Watad"
+    }
   },
   {
     "_id": "x1IIUY",
     "title": "nownow updated",
+    "description": "description",
     "severity": 3,
-    "createdAt": 1707088568381
+    "createdAt": 1707088568381,
+    "createdBy": {
+      "_id": "5UFq1h",
+      "fullname": "Lina Dacca Watad"
+    }
   },
   {
     "_id": "OQJCT2",
     "title": "new bug",
+    "description": "description",
     "severity": 3,
-    "createdAt": 1707741067139
+    "createdAt": 1707741067139,
+    "createdBy": {
+      "_id": "5UFq1h",
+      "fullname": "Lina Dacca Watad"
+    }
   },
   {
     "_id": "S6YcRd",
     "title": "bigo",
-    "severity": 2,
-    "createdAt": 1707741093375
+    "description": "description",
+    "severity": 3,
+    "createdAt": 1707741093375,
+    "createdBy": {
+      "_id": "5UFq1h",
+      "fullname": "Lina Dacca Watad"
+    }
   },
   {
     "_id": "icOkwG",
     "title": "today",
+    "description": "description",
     "severity": 2,
-    "createdAt": 1707819285111
+    "createdAt": 1707819285111,
+    "createdBy": {
+      "_id": "5UFq1h",
+      "fullname": "Lina Dacca Watad"
+    }
   },
   {
-    "_id": "0IHOeN",
-    "title": "title",
-    "severity": 3,
-    "createdAt": 1707846019445
-  },
-  {
-    "_id": "8i2yNq",
-    "title": "Lina",
+    "_id": "htPyCu",
+    "title": "friday",
+    "description": "description",
     "severity": 1,
-    "createdAt": 1707925804160
+    "createdAt": 1707088568381,
+    "createdBy": {
+      "_id": "5UFq1h",
+      "fullname": "Lina Dacca Watad"
+    }
   },
   {
-    "_id": "ohAbrK",
-    "title": "qrr",
+    "_id": "cTmJT5",
+    "title": "hello",
+    "description": "qdqwdqw",
     "severity": 2,
-    "createdAt": 1707982245349
+    "createdAt": 1708722227331,
+    "createdBy": {
+      "_id": "KXglc5",
+      "fullname": "brian nisenbaum"
+    }
+  },
+  {
+    "_id": "gqFWJm",
+    "title": "satyrewf",
+    "description": "wefw",
+    "severity": 2,
+    "createdAt": 1708722996577,
+    "createdBy": {
+      "_id": "KXglc5",
+      "fullname": "brian nisenbaum"
+    }
+  },
+  {
+    "_id": "1uYGb1",
+    "title": "bruni bug",
+    "description": "fewwefewf",
+    "severity": 1,
+    "createdAt": 1708779591264,
+    "createdBy": {
+      "_id": "KXglc5",
+      "fullname": "brian nisenbaum"
+    }
+  },
+  {
+    "_id": "83TzaV",
+    "title": "bruni created",
+    "description": "2dwefwef",
+    "severity": 1,
+    "createdAt": 1708780458192,
+    "createdBy": {
+      "_id": "KXglc5",
+      "fullname": "brian nisenbaum"
+    }
   }
 ]

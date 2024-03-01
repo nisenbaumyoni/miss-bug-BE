@@ -4,6 +4,7 @@ import { loggerService } from "../../services/logger.service.js";
 export const userService = {
   query,
   getById,
+  getByUsername,
   remove,
   save,
 };
@@ -16,13 +17,12 @@ async function query(filterBy) {
     let usersToReturn = [...users];
 
     if (filterBy) {
-      var { fullname, username, score , pageIndex } = filterBy;
+      var { fullname, username, score, pageIndex } = filterBy;
       fullname = fullname || "";
       username = username || "";
       score = +score;
       pageIndex = pageIndex || 1;
 
-   
       usersToReturn = usersToReturn.filter(
         (user) =>
           user.fullname.toLowerCase().includes(fullname.toLowerCase()) &&
@@ -30,8 +30,11 @@ async function query(filterBy) {
           user.score >= score
       );
 
-       const startIndex = (pageIndex - 1) * USER_PAGE_SIZE;
-      usersToReturn = usersToReturn.slice(startIndex, startIndex + USER_PAGE_SIZE);
+      const startIndex = (pageIndex - 1) * USER_PAGE_SIZE;
+      usersToReturn = usersToReturn.slice(
+        startIndex,
+        startIndex + USER_PAGE_SIZE
+      );
     }
     return usersToReturn;
   } catch (err) {
@@ -50,6 +53,16 @@ async function getById(userId) {
   }
 }
 
+async function getByUsername(username) {
+  try {
+    const user = users.find((user) => user.username === username);
+    return user;
+  } catch (err) {
+    loggerService.error(`Had problems getting username ${username}...`);
+    throw err;
+  }
+}
+
 async function remove(userId) {
   const idx = users.findIndex((user) => user._id === userId);
   users.splice(idx, 1);
@@ -64,22 +77,47 @@ async function remove(userId) {
   return `Ok`;
 }
 
+//update or create
 async function save(userToSave) {
+  loggerService.debug(
+    `userService.save is about to save  ${JSON.stringify(userToSave)}`
+  );
   try {
     if (userToSave._id) {
       const idx = users.findIndex((user) => user._id === userToSave._id);
       if (idx === -1) throw "Bad Id";
+      userToSave = {
+        _id: userToSave._id,
+        fullname: userToSave.fullname,
+        username: userToSave.username,
+        password: userToSave.password,
+        score: +userToSave.score || 100,
+        isAdmin : userToSave.isAdmin || false
+      };
       users.splice(idx, 1, userToSave);
     } else {
       userToSave._id = _makeId();
+      userToSave = {
+        _id: userToSave._id,
+        fullname: userToSave.fullname,
+        username: userToSave.username,
+        password: userToSave.password,
+        score: +userToSave.score || 100,
+        isAdmin : userToSave.isAdmin || false
+      };
       users.push(userToSave);
     }
+
     _saveUsersToFile("./data/user.json");
+
+    loggerService.debug(`userService.save saved ${JSON.stringify(userToSave)}`);
+    return userToSave;
   } catch (err) {
-    loggerService.error(`Had problems saving user ${userToSave._id}...`);
+    loggerService.error(
+      `Had problems saving user ${JSON.stringify(userToSave)}...`
+    );
     throw err;
   }
-  return userToSave;
 }
 
 function _makeId(length = 6) {

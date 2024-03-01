@@ -25,3 +25,503 @@
 15.2.2024, 9:40:45 - ERROR - Had problems getting users...
 15.2.2024, 10:23:09 - ERROR - Had problems getting users...
 15.2.2024, 10:23:17 - ERROR - Had problems getting users...
+18.2.2024, 8:17:05 - ERROR - Had problems getting users...
+18.2.2024, 8:40:06 - ERROR - Had problems getting bugs...
+18.2.2024, 8:40:13 - ERROR - Had problems getting bugs...
+18.2.2024, 11:51:22 - DEBUG - auth.service - signup with username: Juki Ma, fullname: juki1234
+18.2.2024, 11:51:22 - DEBUG - auth.route - new account created:  | null
+18.2.2024, 12:09:20 - DEBUG - auth.service - signup with username: Juki Ma, fullname: juki1234
+18.2.2024, 12:10:49 - DEBUG - auth.service - signup with username: Yoni N, fullname: juki1234
+18.2.2024, 12:12:30 - DEBUG - auth.service - signup with username: Yoni N, fullname: juki1234
+18.2.2024, 12:16:53 - DEBUG - auth.service - signup with username: Yoni N, fullname: juki1234
+18.2.2024, 12:17:54 - DEBUG - auth.service - signup with username: Yoni N, fullname: juki1234
+18.2.2024, 12:17:55 - ERROR - Had problems saving user [object Object]...
+18.2.2024, 12:18:26 - DEBUG - auth.service - signup with username: Yoni N, fullname: juki1234
+18.2.2024, 12:18:27 - DEBUG - auth.route - new account created:  | null
+18.2.2024, 12:23:07 - DEBUG - auth.service - signup with username: choop hcoop, fullname: 2bze
+18.2.2024, 12:23:07 - DEBUG - auth.route - new account created:  | null
+18.2.2024, 12:29:24 - DEBUG - auth.service - signup with username: choop hcoop, fullname: 2bze
+18.2.2024, 12:29:24 - DEBUG - userService isa bout to save  [object Object]
+18.2.2024, 12:29:24 - DEBUG - new user created  [object Object]
+18.2.2024, 12:29:24 - DEBUG - auth.route - new account created:  | null
+18.2.2024, 12:33:10 - DEBUG - auth.service - signup with username: choop hcoop, fullname: 2bze
+18.2.2024, 12:33:10 - DEBUG - userService isa bout to save  {"username":"choop hcoop","password":"$2b$10$QaQwiXQQi/osLTNA4WhMiuzQHya3NY6ZlQ.EeoQTHq9qg3sf6U7la","fullname":"2bze"}
+18.2.2024, 12:33:10 - DEBUG - new user created  {"_id":"tAtXfZ","username":"choop hcoop","password":"$2b$10$QaQwiXQQi/osLTNA4WhMiuzQHya3NY6ZlQ.EeoQTHq9qg3sf6U7la","fullname":"2bze","score":100}
+18.2.2024, 12:33:10 - DEBUG - auth.route - new account created:  | null
+18.2.2024, 12:38:47 - DEBUG - auth.service - signup with username: choop hcoop, fullname: 2bze
+18.2.2024, 12:38:47 - DEBUG - userService isa bout to save  {"username":"choop hcoop","password":"$2b$10$1cjyd5UCA2Bkn.BPDyVxz.cQbRbfJFH5V7n8xGTHiPzFm8SNgJiWW","fullname":"2bze"}
+18.2.2024, 12:38:47 - DEBUG - new user created  {"username":"choop hcoop","password":"$2b$10$1cjyd5UCA2Bkn.BPDyVxz.cQbRbfJFH5V7n8xGTHiPzFm8SNgJiWW","fullname":"2bze","_id":"9t1OwS","score":100}
+18.2.2024, 12:38:47 - ERROR - Had problems saving user {"username":"choop hcoop","password":"$2b$10$1cjyd5UCA2Bkn.BPDyVxz.cQbRbfJFH5V7n8xGTHiPzFm8SNgJiWW","fullname":"2bze","_id":"9t1OwS","score":100}...
+18.2.2024, 12:39:20 - DEBUG - auth.service - signup with username: choop hcoop, fullname: 2bze
+18.2.2024, 12:39:20 - DEBUG - userService isa bout to save  {"username":"choop hcoop","password":"$2b$10$jRxfd8E3DhpMHDJr/FpJ4eNrzIgOVD/HzjIow2BxwN04F0VEmP8Ya","fullname":"2bze"}
+18.2.2024, 12:39:20 - DEBUG - new user created  {"username":"choop hcoop","password":"$2b$10$jRxfd8E3DhpMHDJr/FpJ4eNrzIgOVD/HzjIow2BxwN04F0VEmP8Ya","fullname":"2bze","_id":"hU8Ta2","score":100}
+18.2.2024, 12:39:20 - DEBUG - auth.route - new account created:  | null
+18.2.2024, 12:40:42 - DEBUG - auth.service - signup with username: choop hcoop, fullname: 2bze
+18.2.2024, 12:40:42 - DEBUG - userService isa bout to save  {"username":"choop hcoop","password":"$2b$10$R6wOel8VITNjpSz/mFOnmOaLxqCRg58LCGhwiSwWSgJ./e6VwlMwu","fullname":"2bze"}
+18.2.2024, 12:40:42 - DEBUG - new user created  {"username":"choop hcoop","password":"$2b$10$R6wOel8VITNjpSz/mFOnmOaLxqCRg58LCGhwiSwWSgJ./e6VwlMwu","fullname":"2bze","_id":"lZGQWb","score":100}
+18.2.2024, 12:40:42 - DEBUG - auth.route - new account created:  | null
+18.2.2024, 12:41:11 - DEBUG - auth.service - signup with username: choop hcoop, fullname: 2bze
+18.2.2024, 12:41:11 - DEBUG - userService isa bout to save  {"username":"choop hcoop","password":"$2b$10$DTT/tAtcWZauxWs.V2N4feNB5a1DnezFqHczF4NSLUyh./9t/USGi","fullname":"2bze"}
+18.2.2024, 12:41:11 - DEBUG - new user created  {"username":"choop hcoop","password":"$2b$10$DTT/tAtcWZauxWs.V2N4feNB5a1DnezFqHczF4NSLUyh./9t/USGi","fullname":"2bze","_id":"e1Nuww","score":100}
+18.2.2024, 12:41:11 - DEBUG - auth.route - new account created:  | null
+19.2.2024, 10:13:31 - DEBUG - userService isa bout to save  {"score":null}
+19.2.2024, 10:13:31 - DEBUG - new user created  {"_id":"1kniqO","score":100}
+19.2.2024, 10:13:31 - DEBUG - new user created  {"_id":"ibnwww","score":100}
+19.2.2024, 10:13:31 - DEBUG - userService isa bout to save  {"score":null}
+19.2.2024, 10:13:31 - DEBUG - userService isa bout to save  {"score":null}
+19.2.2024, 10:13:31 - DEBUG - new user created  {"_id":"XgVUKY","score":100}
+19.2.2024, 10:14:42 - ERROR - Had problems getting users...
+19.2.2024, 10:31:16 - DEBUG - auth.service - signup with username: signini, fullname: signini dfsdf
+19.2.2024, 10:33:39 - DEBUG - userService isa bout to save  {"username":"signini","password":"$2b$10$oObSfIGAst.tykOJaL74GuBUOR9ShzpR9XHkjA4P/6rTK769l0Roe","fullname":"signini dfsdf"}
+19.2.2024, 10:34:35 - DEBUG - new user created  {"username":"signini","password":"$2b$10$oObSfIGAst.tykOJaL74GuBUOR9ShzpR9XHkjA4P/6rTK769l0Roe","fullname":"signini dfsdf","_id":"vdBuvL","score":100}
+19.2.2024, 10:35:23 - DEBUG - auth.route - new account created:  | null
+19.2.2024, 10:42:23 - DEBUG - auth.service - signup with username: signini, fullname: signini dfsdf
+19.2.2024, 10:42:39 - DEBUG - userService is about to save  {"fullname":"signini dfsdf","username":"signini","password":"$2b$10$g/xIR5AvxX4G.qg2qGX3fuX2K785juv6C/F4mBcFLBPducc8APiwW","score":100}
+19.2.2024, 10:43:03 - DEBUG - new user created  {"fullname":"signini dfsdf","username":"signini","password":"$2b$10$g/xIR5AvxX4G.qg2qGX3fuX2K785juv6C/F4mBcFLBPducc8APiwW","score":100,"_id":"Siba71"}
+19.2.2024, 10:43:12 - DEBUG - auth.route - new account created:  | null
+19.2.2024, 10:45:49 - DEBUG - auth.service - signup with username: signini, fullname: signini dfsdf
+19.2.2024, 10:46:19 - DEBUG - auth.service - signup with username: signini, fullname: signini dfsdf
+19.2.2024, 10:47:26 - DEBUG - auth.service - signup with username: pukiki, fullname: signini dfsdf
+19.2.2024, 10:48:49 - DEBUG - auth.service - signup with username: jujujuukiki, fullname: signini dfsdf
+19.2.2024, 10:48:51 - DEBUG - userService is about to save  {"username":"jujujuukiki","password":"$2b$10$eNkVxw4OLlfsiEmmGe3iFOar5GhEnywDxmxuYp2dKkZ.Hca04ExnC","fullname":"signini dfsdf"}
+19.2.2024, 10:49:39 - DEBUG - auth.route - new account created:  | null
+20.2.2024, 16:40:33 - DEBUG - auth.service - signup with username: mimimimi, fullname: miimi miimi
+20.2.2024, 16:40:38 - DEBUG - userService is about to save  {"username":"mimimimi","password":"$2b$10$LgETUCqL53hxkkYDugEcEeWG2LqDPKE82rm9gQl2O8avvDah.u/wu","fullname":"miimi miimi"}
+20.2.2024, 16:41:13 - DEBUG - auth.route - new account created:  | null
+20.2.2024, 16:44:03 - DEBUG - auth.service - signup with username: ccccc, fullname: micimi ccc
+20.2.2024, 16:44:03 - DEBUG - userService is about to save  {"username":"ccccc","password":"$2b$10$fQMeublMQQLJZQiBgmPhIupjSFoCFh7DMphq.zxroONlX/kGwex8.","fullname":"micimi ccc"}
+20.2.2024, 16:44:53 - DEBUG - auth.route - new account created:  | null
+20.2.2024, 16:46:17 - DEBUG - auth.service - signup with username: dddddd, fullname: ddddd ccdddddc
+20.2.2024, 16:46:17 - DEBUG - userService is about to save  {"username":"dddddd","password":"$2b$10$mAPlBqAEFUVADm5YbYv6D.WJzZ3t53SKF7uGiTXW0gODF09K9E19i","fullname":"ddddd ccdddddc"}
+20.2.2024, 16:46:17 - DEBUG - auth.route - new account created:  | null
+20.2.2024, 16:50:59 - DEBUG - auth.service - signup with username: eeee, fullname: e e
+20.2.2024, 16:50:59 - DEBUG - userService is about to save  {"username":"eeee","password":"$2b$10$k1Z64YJGs2Mj5nDru/sDj.SfW1wrqE8sPvwNl0dWz4Q8UwSn4te/6","fullname":"e e"}
+20.2.2024, 16:50:59 - DEBUG - auth.service - signup saved user: {}
+20.2.2024, 16:50:59 - DEBUG - auth.route - new account created:  | null
+20.2.2024, 16:56:16 - DEBUG - auth.service - signup with username: ffff, fullname: f e
+20.2.2024, 16:56:16 - DEBUG - userService is about to save  {"username":"ffff","password":"$2b$10$CxCCRiGDbmqLxie2FuY0zu8Uyy6pa.2T3j5Kjys5DpuXQVex/mkBS","fullname":"f e"}
+20.2.2024, 16:56:30 - DEBUG - userService.save saved {"_id":"PomYcZ","fullname":"f e","username":"ffff","password":"$2b$10$CxCCRiGDbmqLxie2FuY0zu8Uyy6pa.2T3j5Kjys5DpuXQVex/mkBS","score":100}
+20.2.2024, 16:56:30 - DEBUG - auth.service - signup saved user: {}
+20.2.2024, 16:56:30 - DEBUG - auth.route - new account created:  | null
+20.2.2024, 16:57:27 - DEBUG - auth.service - signup with username: ggggggg, fullname: f e
+20.2.2024, 16:57:40 - DEBUG - userService is about to save  {"username":"ggggggg","password":"$2b$10$4bbXc8zFQYl1ikzsTJ6Dbe98no/xiabOs530zL1oHa7GSHBFgcYXm","fullname":"f e"}
+20.2.2024, 16:57:46 - DEBUG - userService.save saved {"_id":"4WdwJw","fullname":"f e","username":"ggggggg","password":"$2b$10$4bbXc8zFQYl1ikzsTJ6Dbe98no/xiabOs530zL1oHa7GSHBFgcYXm","score":100}
+20.2.2024, 16:58:04 - DEBUG - auth.service - signup saved user: {}
+20.2.2024, 16:58:10 - DEBUG - auth.route - new account created:  | null
+20.2.2024, 17:00:38 - DEBUG - auth.service - signup with username: ggggggg, fullname: f e
+20.2.2024, 17:03:31 - DEBUG - auth.service - signup with username: ggggggg, fullname: f e
+20.2.2024, 17:03:31 - ERROR - Username already exists
+20.2.2024, 17:04:28 - DEBUG - auth.service - signup with username: ggggggg, fullname: f e
+20.2.2024, 17:04:28 - ERROR - Username already exists
+20.2.2024, 17:04:44 - DEBUG - auth.service - signup with username: ggggggg, fullname: f e
+20.2.2024, 17:04:44 - ERROR - Username already exists
+20.2.2024, 17:07:39 - DEBUG - auth.service - signup with username: ggggggg, fullname: f e
+20.2.2024, 17:07:39 - ERROR - Username already exists
+21.2.2024, 11:13:08 - DEBUG - auth.service - signup with username: ergergerg, fullname: frth e
+21.2.2024, 11:13:09 - DEBUG - userService is about to save  {"username":"ergergerg","password":"$2b$10$nKMuV9Cdh4Yggpi9WHyB1.qUJp49TIDbczkJhcxOI3QSU5RXVShfy","fullname":"frth e"}
+21.2.2024, 11:13:09 - DEBUG - userService.save saved {"_id":"yziTii","fullname":"frth e","username":"ergergerg","password":"$2b$10$nKMuV9Cdh4Yggpi9WHyB1.qUJp49TIDbczkJhcxOI3QSU5RXVShfy","score":100}
+21.2.2024, 11:13:15 - DEBUG - auth.service - signup saved user: {}
+21.2.2024, 11:13:15 - DEBUG - auth.route - new account created:  | null
+21.2.2024, 11:13:22 - DEBUG - auth.service - signup with username: erbebe333, fullname: frth e
+21.2.2024, 11:13:23 - DEBUG - userService is about to save  {"username":"erbebe333","password":"$2b$10$JfsIdXn.2cLFydu/KQwz4OT01.umjzc9q4mSPTQDIBAGTfOagoWKy","fullname":"frth e"}
+21.2.2024, 11:13:23 - DEBUG - userService.save saved {"_id":"D1zRCs","fullname":"frth e","username":"erbebe333","password":"$2b$10$JfsIdXn.2cLFydu/KQwz4OT01.umjzc9q4mSPTQDIBAGTfOagoWKy","score":100}
+21.2.2024, 11:13:23 - DEBUG - auth.service - signup saved user: {}
+21.2.2024, 11:13:23 - DEBUG - auth.route - new account created:  | null
+21.2.2024, 11:15:54 - DEBUG - auth.service - signup with username: erbebe333, fullname: frth e
+21.2.2024, 11:15:54 - ERROR - Username already exists
+21.2.2024, 11:15:59 - DEBUG - auth.service - signup with username: 34355555, fullname: frth e
+21.2.2024, 11:15:59 - DEBUG - userService is about to save  {"username":"34355555","password":"$2b$10$43r6BXFE/12C7eWBcJJUNeobNNKSBKfg3261CQ021LRzofGTmISVK","fullname":"frth e"}
+21.2.2024, 11:15:59 - DEBUG - userService.save saved {"_id":"84gxJ2","fullname":"frth e","username":"34355555","password":"$2b$10$43r6BXFE/12C7eWBcJJUNeobNNKSBKfg3261CQ021LRzofGTmISVK","score":100}
+21.2.2024, 11:15:59 - DEBUG - auth.service - signup saved user: {}
+21.2.2024, 11:15:59 - DEBUG - auth.route - new account created:  | null
+21.2.2024, 11:25:13 - DEBUG - auth.service - signup with username: 34355555, fullname: frth e
+21.2.2024, 11:25:13 - ERROR - Username already exists
+21.2.2024, 11:25:31 - DEBUG - auth.service - signup with username: 34355555, fullname: frth e
+21.2.2024, 11:25:31 - ERROR - Username already exists
+21.2.2024, 11:33:55 - DEBUG - auth.service - signup with username: ferergergerg, fullname: frth e
+21.2.2024, 11:33:55 - DEBUG - userService is about to save  {"username":"ferergergerg","password":"$2b$10$c8IEUiPlcZaU1zyfNHkzfuIDAeh1k1D8hCH/RoU4gfqy3DbvSGD9u","fullname":"frth e"}
+21.2.2024, 11:33:55 - DEBUG - userService.save saved {"_id":"uHBLeb","fullname":"frth e","username":"ferergergerg","password":"$2b$10$c8IEUiPlcZaU1zyfNHkzfuIDAeh1k1D8hCH/RoU4gfqy3DbvSGD9u","score":100}
+21.2.2024, 11:33:55 - DEBUG - auth.service - signup saved user: {}
+21.2.2024, 11:33:55 - DEBUG - auth.route - new account created:  | null
+21.2.2024, 13:19:33 - DEBUG - auth.service - signup with username: yonini, fullname: yoni ni
+21.2.2024, 13:19:33 - DEBUG - userService is about to save  {"username":"yonini","password":"$2b$10$cOBtCutbLFTfuDkIyjRMCOwacDatLrc5S7KZaBPWoTVEySHg4Qmdq","fullname":"yoni ni"}
+21.2.2024, 13:19:33 - DEBUG - userService.save saved {"_id":"fgd7Ch","fullname":"yoni ni","username":"yonini","password":"$2b$10$cOBtCutbLFTfuDkIyjRMCOwacDatLrc5S7KZaBPWoTVEySHg4Qmdq","score":100}
+21.2.2024, 13:19:33 - DEBUG - auth.service - signup saved user: {}
+21.2.2024, 13:19:33 - DEBUG - auth.route - new account created:  | null
+21.2.2024, 13:21:42 - ERROR - Invalid username or password
+21.2.2024, 13:22:41 - ERROR - Invalid username or password
+21.2.2024, 13:24:44 - ERROR - ReferenceError: password is not defined
+21.2.2024, 13:26:49 - INFO -  user logged-in {"username":"yonini","password":"1234"}
+21.2.2024, 13:34:24 - INFO -  user logged-in {"username":"yonini","password":"1234"}
+21.2.2024, 13:34:44 - INFO -  user logged-in {"username":"yonini","password":"1234"}
+21.2.2024, 13:36:46 - DEBUG - auth.service - signup with username: zzzzz, fullname: z z
+21.2.2024, 13:36:46 - DEBUG - userService is about to save  {"username":"zzzzz","password":"$2b$10$F6LmJWFxkRjjvlisUCkHsOC9ekDTvNtDfnKJJ4LquM7Q40v2RiXa2","fullname":"z z"}
+21.2.2024, 13:36:46 - DEBUG - userService.save saved {"_id":"skazSr","fullname":"z z","username":"zzzzz","password":"$2b$10$F6LmJWFxkRjjvlisUCkHsOC9ekDTvNtDfnKJJ4LquM7Q40v2RiXa2","score":100}
+21.2.2024, 13:36:46 - DEBUG - auth.service - signup saved user: {}
+21.2.2024, 13:36:46 - DEBUG - auth.route - new account created:  | null
+21.2.2024, 13:36:46 - ERROR - Invalid username or password
+21.2.2024, 13:36:46 - ERROR - Failed to signup Invalid username or password
+21.2.2024, 13:40:18 - DEBUG - auth.service - signup with username: asad, fullname: z z
+21.2.2024, 13:40:18 - DEBUG - userService.save is about to save  {"username":"asad","password":"$2b$10$tshzOyXI5.cvUywWERiooegJwVfaAYs01NStx08k56x0j2ASF0pSq","fullname":"z z"}
+21.2.2024, 13:40:18 - DEBUG - userService.save saved {"_id":"0rQy3w","fullname":"z z","username":"asad","password":"$2b$10$tshzOyXI5.cvUywWERiooegJwVfaAYs01NStx08k56x0j2ASF0pSq","score":100}
+21.2.2024, 13:40:18 - DEBUG - auth.service - signup saved user: {}
+21.2.2024, 13:40:18 - ERROR - Invalid username or password
+21.2.2024, 13:40:18 - DEBUG - auth.route - new account created:  | null
+21.2.2024, 13:40:18 - ERROR - Failed to signup Invalid username or password
+21.2.2024, 13:45:28 - DEBUG - auth.service - signup with username: billy bob, fullname: z z
+21.2.2024, 13:53:44 - DEBUG - authService.signup - signup with username: aaaaaaaa, fullname: joe joe
+21.2.2024, 13:53:44 - DEBUG - userService.save is about to save  {"username":"aaaaaaaa","password":"$2b$10$kvPXq2yOqae.FpII3yfiOevb3lp4stlNlxVsWYLra4Vpye.gkN8/W","fullname":"joe joe"}
+21.2.2024, 13:53:44 - DEBUG - userService.save saved {"_id":"69mdfE","fullname":"joe joe","username":"aaaaaaaa","password":"$2b$10$kvPXq2yOqae.FpII3yfiOevb3lp4stlNlxVsWYLra4Vpye.gkN8/W","score":100}
+21.2.2024, 13:53:44 - DEBUG - authService.signup - saved user: {}
+21.2.2024, 13:53:54 - DEBUG - authController - new account created:  | null
+21.2.2024, 13:54:00 - ERROR - Invalid username or password
+21.2.2024, 13:54:05 - ERROR - Failed to signup Invalid username or password
+21.2.2024, 14:10:24 - DEBUG - authService.signup - signup with username: bbbbbb, fullname: joe joe
+21.2.2024, 14:10:24 - DEBUG - userService.save is about to save  {"username":"bbbbbb","password":"$2b$10$ixMjp1SZZEBImRs2FNoj5OaIplvFTqUgj0qBnOZr.RRrEqsmF8.xW","fullname":"joe joe"}
+21.2.2024, 14:10:24 - DEBUG - userService.save saved {"_id":"QiAru6","fullname":"joe joe","username":"bbbbbb","password":"$2b$10$ixMjp1SZZEBImRs2FNoj5OaIplvFTqUgj0qBnOZr.RRrEqsmF8.xW","score":100}
+21.2.2024, 14:10:24 - DEBUG - authService.signup - saved user: {}
+21.2.2024, 14:10:45 - DEBUG - authController - new account created:  | null
+21.2.2024, 14:11:11 - ERROR - Invalid username or password
+21.2.2024, 14:12:16 - ERROR - Failed to signup Invalid username or password
+21.2.2024, 14:13:10 - INFO -  user logged-in {"username":"bbbbbb","password":"joejoe"}
+21.2.2024, 14:16:32 - INFO -  user logged-in {"_id":"QiAru6","username":"bbbbbb","fullname":"joe joe","score":100}
+21.2.2024, 14:28:19 - DEBUG - authService.signup - signup with username: ddddddd, fullname: wefwe wef
+21.2.2024, 14:28:19 - DEBUG - userService.save is about to save  {"username":"ddddddd","password":"$2b$10$HOVTggCHWCDiruXIoDPpJuKX6CvLzv52Tbo5qIZEhLQXXpQKNnxSe","fullname":"wefwe wef"}
+21.2.2024, 14:28:19 - DEBUG - userService.save saved {"_id":"K8l28b","fullname":"wefwe wef","username":"ddddddd","password":"$2b$10$HOVTggCHWCDiruXIoDPpJuKX6CvLzv52Tbo5qIZEhLQXXpQKNnxSe","score":100}
+21.2.2024, 14:28:19 - DEBUG - authService.signup - saved user: {}
+21.2.2024, 14:28:19 - DEBUG - authController.signup - new account created:  | null
+21.2.2024, 14:29:07 - INFO -  user logged-in {"_id":"K8l28b","username":"ddddddd","fullname":"wefwe wef","score":100}
+21.2.2024, 14:29:08 - DEBUG - authController.login - loggedin and returned mini user {"_id":"K8l28b","username":"ddddddd","fullname":"wefwe wef","score":100} 
+21.2.2024, 14:30:10 - DEBUG - authService.signup - signup with username: eeeeeee, fullname: wefwe wef
+21.2.2024, 14:30:10 - DEBUG - userService.save is about to save  {"username":"eeeeeee","password":"$2b$10$ojcmh1eafbXSABXoOMJw5ejQy9brzn2qIRMBc4ZcshKrXhXLzVgAi","fullname":"wefwe wef"}
+21.2.2024, 14:30:10 - DEBUG - userService.save saved {"_id":"vTWn5C","fullname":"wefwe wef","username":"eeeeeee","password":"$2b$10$ojcmh1eafbXSABXoOMJw5ejQy9brzn2qIRMBc4ZcshKrXhXLzVgAi","score":100}
+21.2.2024, 14:30:10 - DEBUG - authService.signup - saved user: {}
+21.2.2024, 14:30:10 - DEBUG - authController.signup - new account created:  | null
+21.2.2024, 14:30:10 - INFO -  user logged-in {"_id":"vTWn5C","username":"eeeeeee","fullname":"wefwe wef","score":100}
+21.2.2024, 14:30:10 - DEBUG - authController.login - loggedin and returned mini user {"_id":"vTWn5C","username":"eeeeeee","fullname":"wefwe wef","score":100} 
+21.2.2024, 14:35:28 - INFO -  user logged-in {"_id":"vTWn5C","username":"eeeeeee","fullname":"wefwe wef","score":100}
+21.2.2024, 14:35:28 - DEBUG - authController.login - loggedin and returned mini user {"_id":"vTWn5C","username":"eeeeeee","fullname":"wefwe wef","score":100} 
+21.2.2024, 14:36:37 - ERROR - Invalid username or password
+21.2.2024, 14:36:37 - ERROR - Failed to Login Invalid username or password
+21.2.2024, 15:06:52 - DEBUG - authService.signup - signup with username: yonini, fullname: yoni nisenbaum
+21.2.2024, 15:06:52 - DEBUG - userService.save is about to save  {"username":"yonini","password":"$2b$10$EeBSPH5yEeNMTWlvAR5qvetAc.xFU2vL8oBqfOG2caFv.4zeI1pHS","fullname":"yoni nisenbaum"}
+21.2.2024, 15:06:52 - DEBUG - userService.save saved {"_id":"pMzxbu","fullname":"yoni nisenbaum","username":"yonini","password":"$2b$10$EeBSPH5yEeNMTWlvAR5qvetAc.xFU2vL8oBqfOG2caFv.4zeI1pHS","score":100}
+21.2.2024, 15:06:52 - DEBUG - authService.signup - saved user: {}
+21.2.2024, 15:06:53 - DEBUG - authController.signup - new account created:  | null
+21.2.2024, 15:06:53 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+21.2.2024, 15:06:53 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+21.2.2024, 16:21:38 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+21.2.2024, 16:21:38 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+22.2.2024, 9:55:12 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+22.2.2024, 9:55:12 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+22.2.2024, 9:55:48 - ERROR - Invalid username or password
+22.2.2024, 9:55:48 - ERROR - Failed to Login Invalid username or password
+22.2.2024, 9:55:50 - ERROR - Invalid username or password
+22.2.2024, 9:55:50 - ERROR - Failed to Login Invalid username or password
+22.2.2024, 10:01:49 - ERROR - Invalid username or password
+22.2.2024, 10:01:49 - ERROR - Failed to Login Invalid username or password
+22.2.2024, 10:01:51 - ERROR - Invalid username or password
+22.2.2024, 10:01:51 - ERROR - Failed to Login Invalid username or password
+22.2.2024, 10:02:11 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+22.2.2024, 10:02:11 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+22.2.2024, 10:58:12 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+22.2.2024, 10:58:13 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+22.2.2024, 11:00:39 - DEBUG - AuthController.getBugs loggedInUser- null
+22.2.2024, 11:14:16 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+22.2.2024, 11:14:16 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+22.2.2024, 11:14:43 - DEBUG - AuthController.getBugs loggedInUser- null
+22.2.2024, 12:50:14 - DEBUG - AuthController.getBugs loggedInUser- null
+22.2.2024, 12:50:28 - DEBUG - AuthController.getBugs loggedInUser- null
+23.2.2024, 10:32:52 - DEBUG - userService.save is about to save  {"fullname":"sdsdoe sdsdjoe","username":"sdsdasd","password":"joejoe","score":1000}
+23.2.2024, 10:32:52 - DEBUG - userService.save saved {"_id":"Vh25Rl","fullname":"sdsdoe sdsdjoe","username":"sdsdasd","password":"joejoe","score":1000,"isAdmin":false}
+23.2.2024, 10:33:36 - DEBUG - userService.save is about to save  {"fullname":"sdsdoe sdsdjoe","username":"bbb","password":"joejoe","score":1000,"isAdmin":true}
+23.2.2024, 10:33:36 - DEBUG - userService.save saved {"_id":"DcXAC5","fullname":"sdsdoe sdsdjoe","username":"bbb","password":"joejoe","score":1000,"isAdmin":true}
+23.2.2024, 10:34:42 - DEBUG - userService.save is about to save  {"_id":"DcXAC5","fullname":"sdsdoe sdsdjoe","username":"bbb","password":"joejoe","score":1000,"isAdmin":false}
+23.2.2024, 10:34:42 - DEBUG - userService.save saved {"_id":"DcXAC5","fullname":"sdsdoe sdsdjoe","username":"bbb","password":"joejoe","score":1000,"isAdmin":false}
+23.2.2024, 18:30:46 - DEBUG - AuthController.getBugs loggedInUser- null
+23.2.2024, 18:32:28 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+23.2.2024, 18:32:28 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+23.2.2024, 18:33:01 - DEBUG - AuthController.getBugs loggedInUser- [object Object]
+23.2.2024, 20:42:14 - DEBUG - AuthController.getBugs loggedInUser- [object Object]
+23.2.2024, 20:43:16 - DEBUG - AuthController.getBugs loggedInUser- null
+23.2.2024, 20:43:52 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+23.2.2024, 20:43:53 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+23.2.2024, 20:44:26 - DEBUG - AuthController.getBugs loggedInUser- null
+23.2.2024, 20:55:01 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+23.2.2024, 20:55:01 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+23.2.2024, 23:05:45 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+23.2.2024, 23:05:45 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+23.2.2024, 23:06:33 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+23.2.2024, 23:06:34 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+23.2.2024, 23:10:35 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+23.2.2024, 23:10:35 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+23.2.2024, 23:13:39 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+23.2.2024, 23:13:39 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+24.2.2024, 11:28:27 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+24.2.2024, 11:28:27 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+24.2.2024, 11:30:07 - DEBUG - userService.save is about to save  {"_id":"DcXAC5","fullname":"jonathan nisenabum","username":"jonini","password":"1234","score":1000,"isAdmin":true}
+24.2.2024, 11:30:07 - DEBUG - userService.save saved {"_id":"DcXAC5","fullname":"jonathan nisenabum","username":"jonini","password":"1234","score":1000,"isAdmin":true}
+24.2.2024, 11:30:29 - ERROR - Invalid username or password
+24.2.2024, 11:30:29 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:31:13 - ERROR - Invalid username or password
+24.2.2024, 11:31:13 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:31:19 - ERROR - Invalid username or password
+24.2.2024, 11:31:19 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:31:30 - ERROR - Invalid username or password
+24.2.2024, 11:31:30 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:46:23 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+24.2.2024, 11:46:23 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+24.2.2024, 11:46:37 - ERROR - Invalid username or password
+24.2.2024, 11:46:37 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:46:39 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:46:39 - ERROR - Invalid username or password
+24.2.2024, 11:46:41 - ERROR - Invalid username or password
+24.2.2024, 11:46:41 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:46:41 - ERROR - Invalid username or password
+24.2.2024, 11:46:41 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:46:41 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:46:41 - ERROR - Invalid username or password
+24.2.2024, 11:47:03 - ERROR - Invalid username or password
+24.2.2024, 11:47:03 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:51:22 - ERROR - Invalid username or password
+24.2.2024, 11:51:22 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:51:37 - ERROR - Invalid username or password
+24.2.2024, 11:51:37 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 11:51:43 - ERROR - Invalid username or password
+24.2.2024, 11:51:43 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 12:18:34 - ERROR - Invalid username or password
+24.2.2024, 12:18:35 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 12:19:12 - ERROR - Invalid username or password
+24.2.2024, 12:19:12 - ERROR - Failed to Login Invalid username or password
+24.2.2024, 12:20:19 - DEBUG - authService.signup - signup with username: jonini, fullname: jonathan nisenbaum
+24.2.2024, 12:20:19 - ERROR - Failed to signup Username already exists
+24.2.2024, 12:20:19 - ERROR - Username already exists
+24.2.2024, 12:20:46 - DEBUG - authService.signup - signup with username: tonini, fullname: jonathan nisenbaum
+24.2.2024, 12:20:46 - DEBUG - userService.save is about to save  {"username":"tonini","password":"$2b$10$PkxkqTCE5JEIX2/FN3ClWu5lUljcje31QPxd1IiINoMuXioRwfHbO","fullname":"jonathan nisenbaum"}
+24.2.2024, 12:20:46 - DEBUG - userService.save saved {"_id":"DmnhYS","fullname":"jonathan nisenbaum","username":"tonini","password":"$2b$10$PkxkqTCE5JEIX2/FN3ClWu5lUljcje31QPxd1IiINoMuXioRwfHbO","score":100,"isAdmin":false}
+24.2.2024, 12:20:46 - DEBUG - authService.signup - saved user: {}
+24.2.2024, 12:20:46 - DEBUG - authController.signup - new account created:  | null
+24.2.2024, 12:20:50 - INFO -  user logged-in {"_id":"DmnhYS","username":"tonini","fullname":"jonathan nisenbaum","score":100}
+24.2.2024, 12:20:51 - DEBUG - authController.login - loggedin and returned mini user {"_id":"DmnhYS","username":"tonini","fullname":"jonathan nisenbaum","score":100} 
+24.2.2024, 12:21:11 - INFO -  user logged-in {"_id":"DmnhYS","username":"tonini","fullname":"jonathan nisenbaum","score":100}
+24.2.2024, 12:21:11 - DEBUG - authController.login - loggedin and returned mini user {"_id":"DmnhYS","username":"tonini","fullname":"jonathan nisenbaum","score":100} 
+24.2.2024, 12:24:01 - DEBUG - authService.signup - signup with username: ionini, fullname: jonathan nisenbaum
+24.2.2024, 12:24:01 - DEBUG - userService.save is about to save  {"username":"ionini","password":"$2b$10$7TMLfJHKd0mAYi/ynGVohurcPiwWRom4kHRQf8sSuSkNEEosP7/d6","fullname":"jonathan nisenbaum"}
+24.2.2024, 12:24:01 - DEBUG - userService.save saved {"_id":"AaZyi3","fullname":"jonathan nisenbaum","username":"ionini","password":"$2b$10$7TMLfJHKd0mAYi/ynGVohurcPiwWRom4kHRQf8sSuSkNEEosP7/d6","score":100,"isAdmin":false}
+24.2.2024, 12:24:01 - DEBUG - authService.signup - saved user: {}
+24.2.2024, 12:24:01 - DEBUG - authController.signup - new account created:  | null
+24.2.2024, 12:24:01 - INFO -  user logged-in {"_id":"AaZyi3","username":"ionini","fullname":"jonathan nisenbaum","score":100}
+24.2.2024, 12:24:01 - DEBUG - authController.login - loggedin and returned mini user {"_id":"AaZyi3","username":"ionini","fullname":"jonathan nisenbaum","score":100} 
+24.2.2024, 12:27:22 - DEBUG - authService.signup - signup with username: ionini, fullname: jonathan nisenbaum
+24.2.2024, 12:27:22 - ERROR - Username already exists
+24.2.2024, 12:27:22 - ERROR - Failed to signup Username already exists
+24.2.2024, 12:27:54 - DEBUG - authService.signup - signup with username: brian, fullname: brian nisenbaum
+24.2.2024, 12:27:54 - DEBUG - userService.save is about to save  {"username":"brian","password":"$2b$10$SyQb053do5lSfBrFigtP1.cvBOW7jW0jGpMBJHvIK2p2MNO3n7ItS","fullname":"brian nisenbaum","isAdmin":true}
+24.2.2024, 12:27:54 - DEBUG - userService.save saved {"_id":"loDmjr","fullname":"brian nisenbaum","username":"brian","password":"$2b$10$SyQb053do5lSfBrFigtP1.cvBOW7jW0jGpMBJHvIK2p2MNO3n7ItS","score":100,"isAdmin":true}
+24.2.2024, 12:27:54 - DEBUG - authService.signup - saved user: {}
+24.2.2024, 12:27:54 - DEBUG - authController.signup - new account created:  | null
+24.2.2024, 12:27:54 - INFO -  user logged-in {"_id":"loDmjr","username":"brian","fullname":"brian nisenbaum","score":100}
+24.2.2024, 12:27:54 - DEBUG - authController.login - loggedin and returned mini user {"_id":"loDmjr","username":"brian","fullname":"brian nisenbaum","score":100} 
+24.2.2024, 12:30:06 - DEBUG - authService.signup - signup with username: bruni, fullname: brian nisenbaum
+24.2.2024, 12:30:07 - DEBUG - userService.save is about to save  {"username":"bruni","password":"$2b$10$SZeG7iJzZLBiXUV1LjBHYusgOw2kiuyLypX0UtTaaPK.swO0X.QFC","fullname":"brian nisenbaum","isAdmin":true}
+24.2.2024, 12:30:07 - DEBUG - userService.save saved {"_id":"KXglc5","fullname":"brian nisenbaum","username":"bruni","password":"$2b$10$SZeG7iJzZLBiXUV1LjBHYusgOw2kiuyLypX0UtTaaPK.swO0X.QFC","score":100,"isAdmin":true}
+24.2.2024, 12:30:07 - DEBUG - authService.signup - saved user: {}
+24.2.2024, 12:30:07 - DEBUG - authController.signup - new account created:  | null
+24.2.2024, 12:30:07 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 12:30:07 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 12:30:37 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 12:30:37 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 12:30:51 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 12:30:51 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 12:30:58 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100}
+24.2.2024, 12:30:58 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100} 
+24.2.2024, 12:35:10 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 12:35:11 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 12:41:58 - INFO -  user logged-in {"_id":"loDmjr","username":"brian","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 12:41:58 - DEBUG - authController.login - loggedin and returned mini user {"_id":"loDmjr","username":"brian","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 12:43:16 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 12:44:11 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 12:46:33 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 12:46:33 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 14:34:12 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 14:34:12 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 14:40:23 - DEBUG - authService.signup - signup with username: pukiki, fullname: puki pu
+24.2.2024, 14:40:23 - DEBUG - userService.save is about to save  {"username":"pukiki","password":"$2b$10$EUKy9mMgDLcVbnLdhsHuJeolJozzUhqODG1mxlduqECVB6Qk5/deu","fullname":"puki pu","isAdmin":false}
+24.2.2024, 14:40:23 - DEBUG - userService.save saved {"_id":"Tvcdo9","fullname":"puki pu","username":"pukiki","password":"$2b$10$EUKy9mMgDLcVbnLdhsHuJeolJozzUhqODG1mxlduqECVB6Qk5/deu","score":100,"isAdmin":false}
+24.2.2024, 14:40:23 - DEBUG - authService.signup - saved user: {}
+24.2.2024, 14:40:23 - DEBUG - authController.signup - new account created:  | null
+24.2.2024, 14:40:23 - INFO -  user logged-in {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false}
+24.2.2024, 14:40:23 - DEBUG - authController.login - loggedin and returned mini user {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false} 
+24.2.2024, 14:40:34 - DEBUG - authController.login - loggedin and returned mini user {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false} 
+24.2.2024, 14:40:34 - INFO -  user logged-in {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false}
+24.2.2024, 14:56:23 - INFO -  user logged-in {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false}
+24.2.2024, 14:56:23 - DEBUG - authController.login - loggedin and returned mini user {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false} 
+24.2.2024, 14:56:53 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 14:56:53 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 14:57:43 - INFO -  user logged-in {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false}
+24.2.2024, 14:57:43 - DEBUG - authController.login - loggedin and returned mini user {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false} 
+24.2.2024, 14:59:40 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 14:59:40 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 15:05:16 - INFO -  user logged-in {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false}
+24.2.2024, 15:05:16 - DEBUG - authController.login - loggedin and returned mini user {"_id":"Tvcdo9","username":"pukiki","fullname":"puki pu","score":100,"isAdmin":false} 
+24.2.2024, 15:06:31 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+24.2.2024, 15:06:31 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+24.2.2024, 15:35:17 - DEBUG - bugService.query - loggedInUser is async function getLoginToken(user) {
+  try {
+    const str = JSON.stringify(user);
+    const encryptedStr = cryptr.encrypt(str);
+    return encryptedStr;
+  } catch (err) {
+    loggerService.debug(err);
+    throw err;
+  }
+}
+25.2.2024, 13:10:43 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+25.2.2024, 13:10:44 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+25.2.2024, 13:14:35 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100,"isAdmin":false}
+25.2.2024, 13:14:35 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100,"isAdmin":false} 
+25.2.2024, 13:23:02 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100,"isAdmin":false}
+25.2.2024, 13:23:02 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100,"isAdmin":false} 
+25.2.2024, 13:37:33 - DEBUG - authService.login userToLogin [object Object]
+25.2.2024, 13:39:29 - ERROR - Invalid username or password
+25.2.2024, 13:39:29 - ERROR - Failed to Login Invalid username or password
+25.2.2024, 13:39:56 - DEBUG - authService.login userToLogin [object Object]
+25.2.2024, 13:42:06 - ERROR - Invalid username or password
+25.2.2024, 13:42:06 - ERROR - Failed to Login Invalid username or password
+25.2.2024, 13:43:27 - DEBUG - authService.signup - signup with username: linadacca, fullname: Lina Dacca Watad
+25.2.2024, 13:43:31 - DEBUG - userService.save is about to save  {"username":"linadacca","password":"$2b$10$p2sZU8zwqrIUWTLoO5hVAu26unbeAja/uRf58WORtT7rhHtTzRbGa","fullname":"Lina Dacca Watad","isAdmin":false}
+25.2.2024, 13:43:31 - DEBUG - userService.save saved {"_id":"5UFq1h","fullname":"Lina Dacca Watad","username":"linadacca","password":"$2b$10$p2sZU8zwqrIUWTLoO5hVAu26unbeAja/uRf58WORtT7rhHtTzRbGa","score":100,"isAdmin":false}
+25.2.2024, 13:43:31 - DEBUG - authService.signup - saved user: {}
+25.2.2024, 13:43:31 - DEBUG - authController.signup - new account created:  | null
+25.2.2024, 13:43:31 - DEBUG - authService.login userToLogin [object Object]
+25.2.2024, 13:43:36 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+25.2.2024, 13:43:37 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+25.2.2024, 13:49:20 - DEBUG - authService.login userToLogin [object Object]
+25.2.2024, 13:53:48 - ERROR - Invalid username or password
+25.2.2024, 13:53:48 - ERROR - Failed to Login Invalid username or password
+25.2.2024, 13:54:47 - DEBUG - authService.login userToLogin [object Object]
+25.2.2024, 13:55:56 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+25.2.2024, 13:55:57 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+25.2.2024, 13:59:00 - DEBUG - authService.login userToLogin [object Object]
+25.2.2024, 14:01:17 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+25.2.2024, 14:01:33 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+25.2.2024, 14:04:56 - DEBUG - authService.login userToLogin [object Object]
+25.2.2024, 14:04:57 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+25.2.2024, 14:04:57 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+25.2.2024, 14:38:23 - DEBUG - authService.login userToLogin [object Object]
+25.2.2024, 14:38:23 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+25.2.2024, 14:38:23 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 11:22:38 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 11:22:38 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 11:22:39 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 11:24:10 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 11:24:10 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 11:24:10 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 11:40:47 - ERROR - Had problems getting bugs...
+26.2.2024, 11:41:13 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 11:41:13 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 11:41:13 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 11:41:13 - ERROR - Had problems getting bugs...
+26.2.2024, 11:42:45 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 11:42:45 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 11:42:45 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 11:43:40 - ERROR - Had problems getting bugs...
+26.2.2024, 11:47:53 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 11:47:53 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 11:47:53 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 12:19:28 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 12:19:28 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 12:19:28 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 17:45:26 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 17:45:26 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 17:45:27 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 17:45:27 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 17:47:03 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 17:47:04 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 17:48:05 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 17:48:13 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 17:48:14 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 17:48:30 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 17:48:30 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 17:48:30 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 17:48:30 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 18:15:41 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 18:15:42 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 18:15:45 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 18:16:03 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 18:16:06 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 18:16:39 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 18:16:56 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 18:17:15 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 18:17:16 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 18:17:16 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 18:17:16 - DEBUG - AuthController.getBugs loggedInUser- null
+26.2.2024, 19:26:55 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 19:26:55 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 19:26:55 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 19:26:56 - DEBUG - bugController.getBugs loggedInUser- null
+26.2.2024, 19:29:06 - DEBUG - bugController.getBugs loggedInUser- null
+26.2.2024, 19:30:03 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 19:30:03 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 19:30:03 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 19:30:03 - DEBUG - bugController.getBugs loggedInUser- null
+26.2.2024, 19:33:04 - DEBUG - authService.login userToLogin [object Object]
+26.2.2024, 19:33:04 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+26.2.2024, 19:33:05 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+26.2.2024, 19:33:05 - DEBUG - bugController.getBugs loggedInUser- [object Promise]
+26.2.2024, 19:34:57 - DEBUG - bugController.getBugs loggedInUser- [object Promise]
+27.2.2024, 19:57:23 - DEBUG - bugController.getBugs loggedInUser- [object Promise]
+27.2.2024, 19:57:25 - DEBUG - bugController.getBugs loggedInUser- [object Promise]
+28.2.2024, 11:10:00 - DEBUG - bugController.getBugs loggedInUser- [object Promise]
+28.2.2024, 11:10:56 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 11:10:56 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+28.2.2024, 11:10:56 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+28.2.2024, 11:13:49 - DEBUG - bugController.getBugs loggedInUser- null
+28.2.2024, 11:14:34 - DEBUG - bugController.getBugs loggedInUser- null
+28.2.2024, 11:14:44 - DEBUG - bugController.getBugs loggedInUser- null
+28.2.2024, 11:14:46 - DEBUG - bugController.getBugs loggedInUser- null
+28.2.2024, 11:14:47 - DEBUG - bugController.getBugs loggedInUser- null
+28.2.2024, 11:15:17 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 11:15:17 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+28.2.2024, 11:15:18 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+28.2.2024, 15:05:10 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:05:10 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+28.2.2024, 15:05:10 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+28.2.2024, 15:10:18 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:10:18 - ERROR - Invalid username or password
+28.2.2024, 15:10:18 - ERROR - Failed to Login Invalid username or password
+28.2.2024, 15:10:21 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:10:21 - ERROR - Invalid username or password
+28.2.2024, 15:10:21 - ERROR - Failed to Login Invalid username or password
+28.2.2024, 15:10:33 - ERROR - Invalid username or password
+28.2.2024, 15:10:33 - ERROR - Failed to Login Invalid username or password
+28.2.2024, 15:10:33 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:11:06 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:11:06 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+28.2.2024, 15:11:06 - ERROR - Failed to Login ReferenceError: user is not defined
+28.2.2024, 15:11:06 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+28.2.2024, 15:11:30 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:11:30 - INFO -  user logged-in {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100,"isAdmin":false}
+28.2.2024, 15:11:30 - DEBUG - authController.login - loggedin and returned mini user {"_id":"pMzxbu","username":"yonini","fullname":"yoni nisenbaum","score":100,"isAdmin":false} 
+28.2.2024, 15:11:30 - ERROR - Failed to Login ReferenceError: user is not defined
+28.2.2024, 15:11:42 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:11:42 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+28.2.2024, 15:11:42 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+28.2.2024, 15:11:42 - ERROR - Failed to Login ReferenceError: user is not defined
+28.2.2024, 15:12:24 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:13:08 - DEBUG - authService.login userToLogin [object Object]
+28.2.2024, 15:13:09 - INFO -  user logged-in {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true}
+28.2.2024, 15:13:11 - DEBUG - authController.login - loggedin and returned mini user {"_id":"KXglc5","username":"bruni","fullname":"brian nisenbaum","score":100,"isAdmin":true} 
+28.2.2024, 15:13:19 - DEBUG - getBugs req.cookies | {}
+28.2.2024, 15:13:33 - DEBUG - getBugs req.cookies | {}
+28.2.2024, 15:13:50 - DEBUG - getBugs req.cookies | {}
+28.2.2024, 15:13:55 - DEBUG - getBugs req.cookies | {}
+28.2.2024, 15:14:14 - DEBUG - getBugs req.cookies | {}
+28.2.2024, 15:14:15 - DEBUG - getBugs req.cookies | {}
+1.3.2024, 10:52:38 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 10:52:38 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 10:52:38 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 10:52:38 - DEBUG - getBugs req.cookies | {}
+1.3.2024, 10:55:24 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 10:55:24 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 10:55:25 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
