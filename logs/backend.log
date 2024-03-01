@@ -525,3 +525,31 @@
 1.3.2024, 10:55:24 - DEBUG - authService.login userToLogin [object Object]
 1.3.2024, 10:55:24 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
 1.3.2024, 10:55:25 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 11:12:14 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 11:12:14 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 11:12:14 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 11:12:49 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 11:12:49 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 11:12:49 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 11:15:21 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 11:15:21 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 11:15:21 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 11:16:19 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 11:16:19 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 11:16:19 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 11:16:45 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 11:16:45 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 11:16:45 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 11:16:59 - INFO - requireAuthMiddleware.requireUser - loggedInUser is null...
+1.3.2024, 23:02:13 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 23:02:13 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 23:02:14 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 23:04:25 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 23:04:25 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 23:04:25 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
+1.3.2024, 23:04:57 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 23:04:57 - ERROR - Invalid username or password
+1.3.2024, 23:04:57 - ERROR - Failed to Login Invalid username or password
+1.3.2024, 23:05:10 - DEBUG - authService.login userToLogin [object Object]
+1.3.2024, 23:05:10 - INFO -  user logged-in {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false}
+1.3.2024, 23:05:10 - DEBUG - authController.login - loggedin and returned mini user {"_id":"5UFq1h","username":"linadacca","fullname":"Lina Dacca Watad","score":100,"isAdmin":false} 
