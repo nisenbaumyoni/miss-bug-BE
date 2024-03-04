@@ -1,3 +1,5 @@
+//DEFECT : Error: ENOENT: no such file or directory, open './data/user.json'
+
 import fs from "fs";
 import { loggerService } from "../../services/logger.service.js";
 

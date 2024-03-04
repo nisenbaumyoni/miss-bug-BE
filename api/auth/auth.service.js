@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import Crypter from "cryptr";
 import Bcrypt from "bcrypt";
 
