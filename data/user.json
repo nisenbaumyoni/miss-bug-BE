@@ -1,0 +1,108 @@
+[
+  {
+    "_id": "1",
+    "fullname": "joe joe",
+    "username": "joejoe",
+    "password": "joejoe",
+    "score": 1000
+  },
+  {
+    "_id": "2",
+    "fullname": "pu ki",
+    "username": "pukiba",
+    "password": "puki ba",
+    "score": 80
+  },
+  {
+    "_id": "69mdfE",
+    "fullname": "joe joe",
+    "username": "aaaaaaaa",
+    "password": "$2b$10$kvPXq2yOqae.FpII3yfiOevb3lp4stlNlxVsWYLra4Vpye.gkN8/W",
+    "score": 100
+  },
+  {
+    "_id": "QiAru6",
+    "fullname": "joe joe",
+    "username": "bbbbbb",
+    "password": "$2b$10$ixMjp1SZZEBImRs2FNoj5OaIplvFTqUgj0qBnOZr.RRrEqsmF8.xW",
+    "score": 100
+  },
+  {
+    "_id": "K8l28b",
+    "fullname": "wefwe wef",
+    "username": "ddddddd",
+    "password": "$2b$10$HOVTggCHWCDiruXIoDPpJuKX6CvLzv52Tbo5qIZEhLQXXpQKNnxSe",
+    "score": 100
+  },
+  {
+    "_id": "vTWn5C",
+    "fullname": "wefwe wef",
+    "username": "eeeeeee",
+    "password": "$2b$10$ojcmh1eafbXSABXoOMJw5ejQy9brzn2qIRMBc4ZcshKrXhXLzVgAi",
+    "score": 100
+  },
+  {
+    "_id": "pMzxbu",
+    "fullname": "yoni nisenbaum",
+    "username": "yonini",
+    "password": "$2b$10$EeBSPH5yEeNMTWlvAR5qvetAc.xFU2vL8oBqfOG2caFv.4zeI1pHS",
+    "score": 100,
+    "isAdmin": false
+  },
+  {
+    "_id": "Vh25Rl",
+    "fullname": "sdsdoe sdsdjoe",
+    "username": "sdsdasd",
+    "password": "joejoe",
+    "score": 1000,
+    "isAdmin": false
+  },
+  {
+    "_id": "DcXAC5",
+    "fullname": "jonathan nisenabum",
+    "username": "jonini",
+    "password": "1234",
+    "score": 1000,
+    "isAdmin": true
+  },
+  {
+    "_id": "DmnhYS",
+    "fullname": "jonathan nisenbaum",
+    "username": "tonini",
+    "password": "$2b$10$PkxkqTCE5JEIX2/FN3ClWu5lUljcje31QPxd1IiINoMuXioRwfHbO",
+    "score": 100,
+    "isAdmin": false
+  },
+  {
+    "_id": "AaZyi3",
+    "fullname": "jonathan nisenbaum",
+    "username": "ionini",
+    "password": "$2b$10$7TMLfJHKd0mAYi/ynGVohurcPiwWRom4kHRQf8sSuSkNEEosP7/d6",
+    "score": 100,
+    "isAdmin": false
+  },
+  {
+    "_id": "loDmjr",
+    "fullname": "brian nisenbaum",
+    "username": "brian",
+    "password": "$2b$10$SyQb053do5lSfBrFigtP1.cvBOW7jW0jGpMBJHvIK2p2MNO3n7ItS",
+    "score": 100,
+    "isAdmin": true
+  },
+  {
+    "_id": "KXglc5",
+    "fullname": "brian nisenbaum",
+    "username": "bruni",
+    "password": "$2b$10$SZeG7iJzZLBiXUV1LjBHYusgOw2kiuyLypX0UtTaaPK.swO0X.QFC",
+    "score": 100,
+    "isAdmin": true
+  },
+  {
+    "_id": "5UFq1h",
+    "fullname": "Lina Dacca Watad",
+    "username": "linadacca",
+    "password": "$2b$10$p2sZU8zwqrIUWTLoO5hVAu26unbeAja/uRf58WORtT7rhHtTzRbGa",
+    "score": 100,
+    "isAdmin": false
+  }
+]
